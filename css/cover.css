@@ -120,7 +120,17 @@ body {
 	font-family: 'visitor_tt2_brkregular';
 	font-size: 36px;
 }
-
+.pb-dots {
+  position: absolute;
+  -webkit-animation: linear infinite alternate;
+  -webkit-animation-name: run;
+  -webkit-animation-duration: 1.5s;
+}
+@-webkit-keyframes run {
+  0% { left: 44%;}
+  50%{ left : 55%;}
+  100%{ left: 44%;}
+}
 
 /*
  * Footer
