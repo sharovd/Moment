@@ -116,6 +116,10 @@ body {
   padding: 10px 20px;
   font-weight: bold;
 }
+.cover-heading {
+	font-family: 'visitor_tt2_brkregular';
+	font-size: 36px;
+}
 
 
 /*
@@ -160,4 +164,13 @@ body {
   .cover-container {
     width: 700px;
   }
+}
+
+@font-face {
+    font-family: 'visitor_tt2_brkregular';
+    src: url('../fonts/visitor2-webfont.woff2') format('woff2'),
+	     url('../fonts/visitor2-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: none;
+	
 }
