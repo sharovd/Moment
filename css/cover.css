@@ -19,7 +19,6 @@ a:hover {
   border: 1px solid #fff;
 }
 
-
 /*
  * Base structure
  */
@@ -58,10 +57,10 @@ body {
   padding: 30px;
 }
 
-
 /*
  * Header
  */
+
 .masthead-brand {
   margin-top: 10px;
   margin-bottom: 10px;
@@ -104,7 +103,6 @@ body {
   }
 }
 
-
 /*
  * Cover
  */
@@ -117,7 +115,7 @@ body {
   font-weight: bold;
 }
 .cover-heading {
-	font-family: 'visitor_tt2_brkregular';
+    font-family: 'visitor_tt2_brkregular', serif;
 	font-size: 36px;
 }
 .pb-dots {
@@ -140,7 +138,6 @@ body {
   color: #999; /* IE8 proofing */
   color: rgba(255,255,255,.5);
 }
-
 
 /*
  * Affix and center
@@ -181,6 +178,5 @@ body {
     src: url('../fonts/visitor2-webfont.woff2') format('woff2'),
 	     url('../fonts/visitor2-webfont.woff') format('woff');
     font-weight: normal;
-    font-style: none;
-	
+    font-style: normal;
 }
